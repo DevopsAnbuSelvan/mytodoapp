@@ -1,8 +1,8 @@
 require('dotenv').config();
 const express = require('express');
-const authRouter = require('./src/components/auth/auth');
-const welcomeRouter = require('./src/components/welcome/welcome');
-const todoRouter = require('./src/components/todoapp/todo');
+const authRouter = require('./components/auth/auth');
+const welcomeRouter = require('./components/welcome/welcome');
+const todoRouter = require('./components/todoapp/todo');
 const app = express();
 const PORT = process.env.PORT;
 
